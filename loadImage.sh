@@ -1,7 +1,7 @@
 #!/bin/bash
 
-chmod 777 images.tar
-tar -xzvf images.tar
+#chmod 777 images.tar
+#tar -xzvf images.tar
 
 cd images/
 tars=($(ls *.tar */*.tar */*/*.tar))
