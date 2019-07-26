@@ -13,5 +13,5 @@ getK8sImages.sh和getK8sImage_lite.sh是下载镜像，区别是前者会先去�
 
 打包好之后，如果有公网服务器可以直接用ftp传过去。没有的话可以借助百度网盘：
 uploadToBaidu.sh是上传镜像，把刚才打包的镜像上传到百度云。使用了[这位大佬](https://github.com/liuzhuoling2011/BaiduPCS-Go)的Baidu PCS客户端
-loadImage.sh是导入镜像，镜像下载好并放到服务器里之后，在镜像所在目录执行这个脚本就行了。
+loadImage.sh是导入镜像，镜像下载好并放到服务器里之后，把压缩包解压，然后在images/add-on/目录里把不需要的网络附件删除，只留一个就够了。然后在镜像所在目录执行这个脚本就行了。
 具体操作可以看https://blog.csdn.net/oooo2316/article/details/97396779
