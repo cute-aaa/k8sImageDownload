@@ -1,2 +1,2 @@
-# k8s-
+# k8sImageDownload
 用于下载kubeadm初始化时需要的镜像
